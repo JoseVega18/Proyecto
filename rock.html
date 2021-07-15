@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Rock Songs</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="HimanshuGupta">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">	
+		<!-- Animate CSS -->
+		<link href="css/animate.min.css" rel="stylesheet">
+		<!-- Basic stylesheet -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/style-color.css" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/logo/icono nuevo.png">
+	</head>
+	
+	<body>
+		
+		<!-- modal for booking ticket form -->
+		<div class="modal fade" id="bookTicket" tabindex="-1" role="dialog" aria-labelledby="BookTicket">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Name of The Event &nbsp; <small><span class="label label-success">Available</span> &nbsp; <span class="label label-danger">Not Available</span></small></h4>
+					</div>
+					<!-- form for events ticket booking -->
+					<form>
+						<div class="modal-body">
+							<div class="form-group">
+								<label for="exampleInputEmail1">Email</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@mail.com">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputContact">Contact</label>
+								<input type="text" class="form-control" id="exampleInputContact" placeholder="+91 55 5555 5555">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputSeats">Number of Tickets</label>
+								<select class="form-control" id="exampleInputSeats">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> I accept the Terms of Service
+								</label>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<!-- link to payment gatway here -->
+							<button type="button" class="btn btn-primary">Book Now</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<!-- wrapper -->
+		<div class="wrapper" id="home">
+		
+			<!-- header area -->
+			<header>
+				<!-- secondary menu -->
+				<nav class="secondary-menu">
+					<div class="container">
+						<!-- secondary menu left link area -->
+						<div class="sm-left">
+							<strong>Phone</strong>:&nbsp; <a href="#">555 555 555</a>&nbsp;&nbsp;&nbsp;&nbsp;
+							<strong>E-mail</strong>:&nbsp; <a href="#">music.site@melodi.com</a>
+						</div>
+						<!-- secondary menu right link area -->
+						<div class="sm-right">
+							<!-- social link -->
+							<div class="sm-social-link">
+								<a class="h-facebook" href="#"><i class="fa fa-facebook"></i></a>
+								<a class="h-twitter" href="#"><i class="fa fa-twitter"></i></a>
+								<a class="h-google" href="#"><i class="fa fa-google-plus"></i></a>
+								<a class="h-instagram" href="#"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</nav>
+				<!-- primary menu -->
+				<nav class="navbar navbar-fixed-top navbar-default">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<!-- logo area -->
+							<a class="navbar-brand" href="index.html">
+								<!-- logo image -->
+								<img class="img-responsive" src="img/logo/logo.png" alt="" />
+							</a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#lkpop.hmtl">Best Songs</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</header>
+			<!--/ header end -->
+			
+			<!-- banner area -->
+			<div class="banner">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="banner rock/ac dc.jpg" alt="..." width="1900" height="1000">
+							<div class="container">
+								<!-- banner caption -->
+								<div class="carousel-caption slide-one">
+									<!-- heading -->
+									<h2 class="animated fadeInLeftBig"><i class="fa fa-music"></i>AC DC , los mejores éxitos</h2>
+									<!-- paragraph -->
+									<h3 class="animated fadeInRightBig">.</h3>
+								</div>
+													<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="fa fa-arrow-left" aria-hidden="true"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="fa fa-arrow-right" aria-hidden="true"></span>
+					</a>
+				
+							</div>
+						</div>
+						<div class="item">
+							<img src="banner rock/led.jpg" width="1900" height="1000" alt="...">
+							<div class="container">
+								<!-- banner caption -->
+								<div class="carousel-caption slide-two">
+									<!-- heading -->
+									<h2 class="animated fadeInLeftBig"><i class="fa fa-headphones"></i>Led Zeppelid con sus musicas bien recordadas.</h2>
+									<!-- paragraph -->
+									<h3 class="animated fadeInRightBig"></h3>
+								</div>
+													<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="fa fa-arrow-left" aria-hidden="true"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="fa fa-arrow-right" aria-hidden="true"></span>
+					</a>
+				
+							</div>
+						</div>
+						<div class="item">
+							<img src="banner rock/rhcp.webp" width="1900" height="1000"  alt="...">
+							<div class="container">
+								<!-- banner caption -->
+								<div class="carousel-caption slide-two">
+									<!-- heading -->
+									<h2 class="animated fadeInLeftBig"><i class="fa fa-headphones"></i>RED HOT CHILI PEPPERS</h2>
+									<!-- paragraph -->
+									<h3 class="animated fadeInRightBig">Con sus musicas bien queridas por el público.</h3>
+								</div>
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="fa fa-arrow-left" aria-hidden="true"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="fa fa-arrow-right" aria-hidden="true"></span>
+					</a>
+				</div>
+			</div>
+			<!--/ banner end -->
+			
+			<!-- block for animate navigation menu -->
+			<div class="nav-animate"></div>
+			
+			<div class="col-md-6 col-sm-6">
+				<!-- play list -->
+				<div class="playlist-content">
+					<ul class="list-unstyled">
+						<li class="playlist-number">
+							<!-- song information -->
+							<div class="song-info">
+								<!-- song title -->
+								<h4>Father of All ...</h4>
+								<p><strong>Album</strong>:&nbsp;|&nbsp; Father of All .... <strong>Type</strong>:Rock &nbsp;|&nbsp; <strong>Singer</strong>:Green Day</p>
+							</div>
+							<!-- music icon -->
+							<div class="music-icon">
+								<audio src="index rock/01 - Father of All.mp3" type="audio/mp3" controls autoplay>/audio>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li class="playlist-number">
+							<!-- song information -->
+							<div class="song-info">
+								<!-- song title -->
+								<h4>American Idiot</h4>
+								<p><strong>Album</strong>:&nbsp;|&nbsp; American Idiot <strong>Type</strong>:Rock &nbsp;|&nbsp; <strong>Singer</strong>:Green Day</p>
+							</div>
+							
+							<!-- music icon -->
+							<div class="music-icon">
+								<audio src="index rock/01 American Idiot.m4a" type="audio/mp3" controls autoplay>/audio>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li class="playlist-number">
+							<!-- song information -->
+							<div class="song-info">
+								<!-- song title -->
+								<h4>Fire, Ready, Aim</h4>
+								<p><strong>Album</strong>:&nbsp;|&nbsp; Father of All .. <strong>Type</strong>:Rock &nbsp;|&nbsp; <strong>Singer</strong>:Green Day</p>
+							</div>
+								<!-- music icon -->
+							<div class="music-icon">
+								<audio src="index rock/02 - Fire, Ready, Aim.mp3" type="audio/mp3" controls autoplay>/audio> </audio>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li class="playlist-number">
+							<!-- song information -->
+							<div class="song-info">
+								<!-- song title -->
+								<h4>Reptilia</h4>
+								<p><strong>Album</strong>: Reptilia &nbsp;|&nbsp; <strong>Type</strong>:Rock &nbsp;|&nbsp; <strong>Singer</strong>:The Strokes</p>
+							</div>
+							<!-- music icon -->
+							<div class="music-icon">
+								<audio src="index rock/02. Reptilia.mp3" type="audio/mp3" controls autoplay>/audio>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li class="playlist-number">
+							<!-- song information -->
+							<div class="song-info">
+								<!-- song title -->
+								<h4>Alone, Together</h4>
+								<p><strong>Album</strong>:&nbsp;|&nbsp; Alone, Together<strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>:The Strokes</p>
+							</div>
+							<!-- music icon -->
+							<div class="music-icon">
+								<audio src="index rock/06. Alone, Together.mp3" type="audio/mp3" controls autoplay>/audio>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li class="playlist-number">
+							<!-- song information -->
+							<div class="song-info">
+								<!-- song title -->
+								<h4>Basket Case</h4>
+								<p><strong>Album</strong>: Dookie  &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>:Green Day</p>
+							</div>
+							<!-- music icon -->
+							<div class="music-icon">
+
+								<audio src="index rock/07 - Basket Case.mp3" type="audio/mp3" controls autoplay>/audio>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li class="playlist-number">
+							<!-- song information -->
+							<div class="song-info">
+								<!-- song title -->
+								<h4>A Place For My Head </h4>
+								<p><strong>Album</strong>: Hybrid Theory &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>:Linkin Park/p>
+							</div>
+							<!-- music icon -->
+							<div class="music-icon">
+								<audio src="index rock/A Place For My Head.mp3" type="audio/mp3" controls autoplay>/audio>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li class="playlist-number">
+							<!-- song information -->
+							<div class="song-info">
+								<!-- song title -->
+								<h4>Ludens</h4>
+								<p><strong>Album</strong>: Ludens &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Bring Me The Horizon </p>
+							</div>
+							<!-- music icon -->
+							<div class="music-icon">
+								<audio src="index rock/Bring Me The Horizon - Ludens (Lyric Video).mp3" type="audio/mp3" controls autoplay>/audio>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li class="playlist-number">
+							<!-- song information -->
+							<div class="song-info">
+								<!-- song title -->
+								<h4>Come as you are</h4>
+								<p><strong>Album</strong>: Nevermind  &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Nirvana </p>
+							</div>
+							<!-- music icon -->
+							<div class="music-icon">
+								<audio src="index rock/Come as you are.mp3" type="audio/mp3" controls autoplay>/audio>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li class="playlist-number">
+							<!-- song information -->
+							<div class="song-info">
+								<!-- song title -->
+								<h4>Drown</h4>
+								<p><strong>Album</strong>: Drown &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Bring Me The Horizon</p>
+							</div>
+							<!-- music icon -->
+							<div class="music-icon">
+								<audio src="index rock/drown.mp3" type="audio/mp3" controls autoplay>/audio>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li class="playlist-number">
+							<!-- song information -->
+							<div class="song-info">
+								<!-- song title -->
+								<h4>Given Up</h4>
+								<p><strong>Album</strong>: Minutes To Midnight  &nbsp;|&nbsp; <strong>Type</strong>:Rock &nbsp;|&nbsp; <strong>Singer</strong>:  Linkin Park</p>
+							</div>
+							<!-- music icon -->
+							<div class="music-icon">
+								<audio src="index rock/Given Up.mp3" type="audio/mp3" controls autoplay>/audio>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+							<div class="col-md-6 col-sm-6">
+								<!-- play list -->
+								<div class="playlist-content">
+									<ul class="list-unstyled">
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Last Resort</h4>
+												<p><strong>Album</strong>:&nbsp;|&nbsp; Last Resort <strong>Type</strong>:Rock &nbsp;|&nbsp; <strong>Singer</strong>:Papa Roach</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="index rock/Last Resort.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Numb</h4>
+												<p><strong>Album</strong>:&nbsp;|&nbsp; Meteora <strong>Type</strong>:Rock &nbsp;|&nbsp; <strong>Singer</strong>:Linkin Park</p>
+											</div>
+                                            
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="index rock/Numb.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>One More Light</h4>
+												<p><strong>Album</strong>:&nbsp;|&nbsp; One More Light <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>:Linkin Park </p>
+											</div>
+                                            	<!-- music icon -->
+											<div class="music-icon">
+												<audio src="index rock/One More Light .mp3" type="audio/mp3" controls autoplay>/audio> </audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>One Step Closer</h4>
+												<p><strong>Album</strong>: &nbsp;|&nbsp; Hybrid Theory <strong>Type</strong>:Rock &nbsp;|&nbsp; <strong>Singer</strong>:Linkin Park</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="index rock/One Step Closer.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Psychosocial</h4>
+												<p><strong>Album</strong>:&nbsp;|&nbsp; Psychosocial <strong>Type</strong>:Rock &nbsp;|&nbsp; <strong>Singer</strong>: Slipknot</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="index rock/psychosocial.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Smells Like Teen Spirit</h4>
+												<p><strong>Album</strong>:  &nbsp;|&nbsp; Nevermind <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>:Nirvana</p>
+											</div>
+                                            <!-- music icon -->
+											<div class="music-icon">
+
+												<audio src="index rock/Smells Like Teen Spirit.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>The Man Who Sold The World</h4>
+												<p><strong>Album</strong>: &nbsp;|&nbsp; The Man Who Sold The World <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>:Nirvana</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="index rock/The Man Who Sold The World.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>What I´ve Done</h4>
+												<p><strong>Album</strong>: Minutes to Midnight &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Linkin Park</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="index rock/What I've Done.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Leave Out All Rest </h4>
+												<p><strong>Album</strong>: Minutes to Midnight   &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Linkin Park </p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="index rock/Leave Out All The Rest.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Bleed It Out</h4>
+												<p><strong>Album</strong>: Minutes to Midnight &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Linkin Park</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="index rock/Bleed It Out.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+                                        <li class="playlist-number">
+                                            <!-- song information -->
+                                            <div class="song-info">
+                                                <!-- song title -->
+                                                <h4>In The End</h4>
+                                                <p><strong>Album</strong>: Hybrid Theory &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Linkin Park  </p>
+                                            </div>
+                                            <!-- music icon -->
+                                            <div class="music-icon">
+                                                <audio src="index rock/In The End.mp3" type="audio/mp3" controls autoplay>/audio>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ hero end -->
+				<!-- news letter end -->
+				<div class="portfolio pad" id="portfolio">
+					<div>
+						<!-- default heading -->
+						<div class="default-heading">
+							<!-- heading -->
+							<h2>Bests Albums</h2>
+						</div>
+					</div>
+					<!-- portfolio -->
+					<div class="portfolio-content" id="portfolioOwl">
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Rock/21 century breakdown.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>21st century breakdown</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Rock/Apettite for destruccion.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Apettite for Destruccion</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Rock/Destroyer.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Destroyer</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Rock/dookie.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Dookie</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Rock/For those about to rock.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>For those about to rock</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Rock/green day.png" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>American Idiot</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Rock/meteora.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Meteora</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Rock/minutes to mignight.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Minutes to midnight</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Rock/nevermind.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Nevermind</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Rock/slipknot-.5-The-Gray-Chapter.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>The Gray Chapter</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- portfolio end -->
+				</div>
+            
+			
+			<!-- promo -->
+			<div class="promo parallax-one pad">
+				<div class="container">
+					<!-- promo element -->
+					<div class="promo-element ">
+						<!-- heading -->
+						<h3>Music An Art...</h3>
+						<!-- paragraph -->
+						<p><strong>Music is an art form and cultural activity whose medium is sound organized in time. The common elements of music are pitch , rhythm, dynamics and the sonic qualities of timbre and texture.</strong></p>
+						<!-- link -->
+						<a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a>
+					</div>
+				</div>
+			</div>
+			<!--/ promo end -->
+            		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- WayPoints JS -->
+		<script src="js/waypoints.min.js"></script>
+		<!-- Include js plugin -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- One Page Nav -->
+		<script src="js/jquery.nav.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+	</body>	
+</html>

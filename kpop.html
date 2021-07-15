@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>kpop songs</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="HimanshuGupta">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">	
+		<!-- Animate CSS -->
+		<link href="css/animate.min.css" rel="stylesheet">
+		<!-- Basic stylesheet -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/style-color.css" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/logo/icono nuevo.png">
+	</head>
+	
+	<body>
+		
+		<!-- modal for booking ticket form -->
+		<div class="modal fade" id="bookTicket" tabindex="-1" role="dialog" aria-labelledby="BookTicket">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Name of The Event &nbsp; <small><span class="label label-success">Available</span> &nbsp; <span class="label label-danger">Not Available</span></small></h4>
+					</div>
+					<!-- form for events ticket booking -->
+					<form>
+						<div class="modal-body">
+							<div class="form-group">
+								<label for="exampleInputEmail1">Email</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@mail.com">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputContact">Contact</label>
+								<input type="text" class="form-control" id="exampleInputContact" placeholder="+91 55 5555 5555">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputSeats">Number of Tickets</label>
+								<select class="form-control" id="exampleInputSeats">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> I accept the Terms of Service
+								</label>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<!-- link to payment gatway here -->
+							<button type="button" class="btn btn-primary">Book Now</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<!-- wrapper -->
+		<div class="wrapper" id="home">
+		
+			<!-- header area -->
+			<header>
+				<!-- secondary menu -->
+				<nav class="secondary-menu">
+					<div class="container">
+						<!-- secondary menu left link area -->
+						<div class="sm-left">
+							<strong>Phone</strong>:&nbsp; <a href="#">555 555 555</a>&nbsp;&nbsp;&nbsp;&nbsp;
+							<strong>E-mail</strong>:&nbsp; <a href="#">music.site@melodi.com</a>
+						</div>
+						<!-- secondary menu right link area -->
+						<div class="sm-right">
+							<!-- social link -->
+							<div class="sm-social-link">
+								<a class="h-facebook" href="#"><i class="fa fa-facebook"></i></a>
+								<a class="h-twitter" href="#"><i class="fa fa-twitter"></i></a>
+								<a class="h-google" href="#"><i class="fa fa-google-plus"></i></a>
+								<a class="h-instagram" href="#"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</nav>
+				<!-- primary menu -->
+				<nav class="navbar navbar-fixed-top navbar-default">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<!-- logo area -->
+							<a class="navbar-brand" href="index.html">
+								<!-- logo image -->
+								<img class="img-responsive" src="img/logo/logo.png" alt="" />
+							</a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#lkpop.hmtl">Best Songs</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</header>
+			<!--/ header end -->
+			
+			<!-- banner area -->
+			<div class="banner">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/banner/stray.jpg" alt="..." width="1900" height="1000">
+							<div class="container">
+								<!-- banner caption -->
+								<div class="carousel-caption slide-one">
+									<!-- heading -->
+									<h2 class="animated fadeInLeftBig"><i class="fa fa-music"></i>Stray Kids en el 2021</h2>
+									<!-- paragraph -->
+									<h3 class="animated fadeInRightBig">.</h3>
+								</div>
+													<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="fa fa-arrow-left" aria-hidden="true"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="fa fa-arrow-right" aria-hidden="true"></span>
+					</a>
+				
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/banner/BTS.webp" width="1900" height="1000" alt="...">
+							<div class="container">
+								<!-- banner caption -->
+								<div class="carousel-caption slide-two">
+									<!-- heading -->
+									<h2 class="animated fadeInLeftBig"><i class="fa fa-headphones"></i>Dynamite, fue la canción mas escuchada del año 2020..</h2>
+									<!-- paragraph -->
+									<h3 class="animated fadeInRightBig">Las mejores canciones de la actualidad en el género del K-pop.</h3>
+								</div>
+													<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="fa fa-arrow-left" aria-hidden="true"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="fa fa-arrow-right" aria-hidden="true"></span>
+					</a>
+				
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/banner/twice.jpg" width="1900" height="1000"  alt="...">
+							<div class="container">
+								<!-- banner caption -->
+								<div class="carousel-caption slide-two">
+									<!-- heading -->
+									<h2 class="animated fadeInLeftBig"><i class="fa fa-headphones"></i>Las chicas de Twice</h2>
+									<!-- paragraph -->
+									<h3 class="animated fadeInRightBig">Regresaron con su nuevo sencillo en Corea.</h3>
+								</div>
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="fa fa-arrow-left" aria-hidden="true"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="fa fa-arrow-right" aria-hidden="true"></span>
+					</a>
+				</div>
+			</div>
+			<!--/ banner end -->
+			
+			<!-- block for animate navigation menu -->
+			<div class="nav-animate"></div>
+			
+			<!-- Hero block area -->
+			<div id="latestalbum" class="hero pad">
+				<div class="container">
+					<!-- hero content -->
+					<div class="hero-content ">
+						<!-- heading -->
+						<h2>Latest Album</h2>
+						<hr>
+						<!-- paragraph -->
+						<p>We sing the best <strong class="theme-color">Songs</strong> and now we control the world best <strong class="theme-color">Music</strong>.</p>
+					</div>
+					<!-- hero play list -->
+					<div class="hero-playlist">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<!-- music album image -->
+								<div class="figure">
+									<!-- image -->
+									<img class="img-responsive" src="img/album/butter.jpg" width="500" height="500" alt="" />
+									<!-- disk image -->
+									<img class="img-responsive disk" src="img/album/disk.png" alt="" />
+								</div>
+								<!-- album details -->
+								<div class="album-details">
+									<!-- title -->
+									<marquee><h4>Butter</h4></marquee>
+									<!-- composed by -->
+									<h5>By BTS</h5>
+									<!-- paragraph -->
+									<p>Best song in 2021.</p>
+									<!-- button -->
+									<a href="#" class="btn btn-lg btn-theme" id="playNowBtn"><i class="fa fa-play"></i>&nbsp;Gei it, Let it roll</a>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<!-- play list -->
+								<div class="playlist-content">
+									<ul class="list-unstyled">
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Dynamite</h4>
+												<p><strong>Album</strong>: Dynamite &nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: BTS</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="audio/Dynamite.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>God´s Menu</h4>
+												<p><strong>Album</strong>: Go Live &nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: Stray Kids</p>
+											</div>
+                                            
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="audio/God´s Menú.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>I Can´t Stop Me</h4>
+												<p><strong>Album</strong>: Eyes Wide Open &nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: Twice</p>
+											</div>
+                                            	<!-- music icon -->
+											<div class="music-icon">
+												<audio src="audio/I can´t Stop me.mp3" type="audio/mp3" controls autoplay>/audio> </audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Mafia In The Morning</h4>
+												<p><strong>Album</strong>: Guess Who &nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: Itzy </p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="audio/In the morning.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Boy With Luv</h4>
+												<p><strong>Album</strong>: Map of The Soul: Persona &nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: BTS</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="audio/Boy With Luv.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Back Door</h4>
+												<p><strong>Album</strong>:  IN LIFE &nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: Stray Kids </p>
+											</div>
+                                            <!-- music icon -->
+											<div class="music-icon">
+
+												<audio src="audio/BackDoor.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Fancy</h4>
+												<p><strong>Album</strong>: Fancy You&nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: Twice </p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="audio/Fancy.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Not Shy</h4>
+												<p><strong>Album</strong>: Not Shy &nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: Itzy </p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="audio/Not Shy.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>DNA</h4>
+												<p><strong>Album</strong>: Love Yourself 結 `Answer` 1 &nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: BTS </p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="audio/DNA.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Miroh</h4>
+												<p><strong>Album</strong>: Clé 1: Miroh &nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: Stray Kids</p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="audio/Miroh.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>What is Love?</h4>
+												<p><strong>Album</strong>: What is love? &nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: Twice </p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="audio/What is Love.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+										<li class="playlist-number">
+											<!-- song information -->
+											<div class="song-info">
+												<!-- song title -->
+												<h4>Wannabe</h4>
+												<p><strong>Album</strong>: Itz´Me &nbsp;|&nbsp; <strong>Type</strong>: K-Pop &nbsp;|&nbsp; <strong>Singer</strong>: Itzy </p>
+											</div>
+											<!-- music icon -->
+											<div class="music-icon">
+												<audio src="audio/Wannabe.mp3" type="audio/mp3" controls autoplay>/audio>
+											</div>
+											<div class="clearfix"></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ hero end -->
+				<!-- news letter end -->
+				<div class="portfolio pad" id="portfolio">
+					<div>
+						<!-- default heading -->
+						<div class="default-heading">
+							<!-- heading -->
+							<h2>Portfolio</h2>
+						</div>
+					</div>
+					<!-- portfolio -->
+					<div class="portfolio-content" id="portfolioOwl">
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Kpop/border carnival.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Border Carnival</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Kpop/CLÉ MIROH.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>CLÉ MIROH</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Kpop/dynamite.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Dynamite</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Kpop/go.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Go</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Kpop/just right.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Just Right</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Kpop/love yourself tear.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Love Yourseslf - Tear</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Kpop/misode 1.png" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Minisode 1</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Kpop/mixtape.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>Mixtape</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Kpop/obsession.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>OBSESSION</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<!-- item image -->
+							<img class="img-responsive" src="albumes Kpop/resonance.jpg" alt="">
+							<!-- transparent background -->
+							<div class="p-transparent"></div>
+							<!-- on mouse hover details -->
+							<div class="p-hover">
+								<!-- heading /title -->
+								<h3>RESONANCE</h3><hr>
+								<!-- project details -->
+								<p></p>
+								<!-- icon -->
+								<a href="#"><i class="fa fa-share"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- portfolio end -->
+				</div>
+            
+			
+			<!-- promo -->
+			<div class="promo parallax-one pad">
+				<div class="container">
+					<!-- promo element -->
+					<div class="promo-element ">
+						<!-- heading -->
+						<h3>Music An Art...</h3>
+						<!-- paragraph -->
+						<p><strong>Music is an art form and cultural activity whose medium is sound organized in time. The common elements of music are pitch , rhythm, dynamics and the sonic qualities of timbre and texture.</strong></p>
+						<!-- link -->
+						<a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a>
+					</div>
+				</div>
+			</div>
+			<!--/ promo end -->
+            		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- WayPoints JS -->
+		<script src="js/waypoints.min.js"></script>
+		<!-- Include js plugin -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- One Page Nav -->
+		<script src="js/jquery.nav.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+	</body>	
+</html>
